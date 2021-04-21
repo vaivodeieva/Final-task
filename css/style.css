@@ -1,0 +1,319 @@
+body {
+    
+    overflow-x: hidden; 
+  }
+
+
+header {
+    margin-top: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.header-btn {
+    padding: 5px;
+    padding-right: 15px;
+    border: none;
+    background: none;
+    
+}
+
+.footer-text {
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+    }
+
+
+a.header-btn {
+color: blueviolet;
+}
+
+
+
+.right {
+float: right;
+margin-top: 10px;
+}
+
+
+body.home a.home, body.articles a.articles, body.articles.body.articles2 a.articles.a.articles2, body.chat a.chat, body.register a.register, body.about-us a.about-us {
+background-color: lightblue;
+border-radius: 60%;
+text-decoration: none;  
+
+}
+
+.right a:hover {
+    text-decoration: none;  
+}
+/* switches out the underline under the menu */
+
+
+
+#carouselExampleControls {
+    display: flex;
+}
+
+
+
+.container-home, .container-articles {
+    margin-right: 25px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container-register {
+   margin-left: 25px;
+   margin-right: 25px;
+   max-width: 310px;
+   margin-bottom: 110px;
+
+}
+
+.container-chat {
+    margin-right: 25px;
+    margin-left: 25px;
+    
+}
+
+
+.inner-container-chat {
+    min-height: 320px;
+    padding: 20px;
+    border: 1px solid black;
+    
+}
+
+
+
+.container-username-message-send {
+    border: 1px solid black;
+    border-top: none;
+    padding: 20px;
+}
+
+.btn-chat {
+    margin-top: 8px;
+}
+
+
+
+.container-home-middle {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.recent-articles {
+    font-weight: 600;
+}
+
+.container-home-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.container-footer {
+    margin-right: 25px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: right;
+    align-items: right; 
+    padding-bottom: 5px;
+    font-size: 13px;
+}
+
+
+.three-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;  
+      /* centers three small articles (home) */
+   
+}
+
+.container-carousel-articles {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.card-row {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.card-body {
+    padding: 5px;
+    /* justifies the text withing the small cards (home) */
+}
+
+.card {
+    padding-left: 0px;
+   
+}
+
+.small-pic {
+    padding: 8px;
+    
+}
+
+
+.container-articles {
+    margin-right: 25px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+/* orders three longer articles (page Articles) */
+.cont-alig {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.paging {
+    margin-right: 75px;
+    margin-left: 25px;
+    display: flex;
+    justify-content:flex-end;
+    margin-top: 20px;
+    
+}
+
+
+.container-footer-articles {
+    font-size: 13px;
+    margin-top: 117px;
+
+}
+
+.footer-articles {
+    margin-left: 25px;
+}
+
+.container-back-home {
+    margin-left: 25px;
+}
+
+
+
+.container-article-images {
+    margin-right: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+}
+
+
+
+.gallery-row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+  
+}
+
+
+.pictures-1 {
+    margin:5px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.pictures-2 {
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+
+
+
+.container-text {
+    text-align: justify;
+    margin-left: 3px;
+}
+
+
+
+.container-tabs {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.nav-link:hover {
+    background: lightgray;
+}
+
+.container-pic-text {
+    margin-left: 1px;
+    margin-right: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.text-field {
+  margin-top: 3px;
+}
+
+.about-pic {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.map {
+  
+    margin-left: 2px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+   
+}
+ .address {
+     margin-left: 0;
+     margin-top: 26px;
+     padding-left: 10px;
+
+    
+ }
+
+.map-and-address {
+   display: flex;
+   flex-direction: row;
+   
+}
+
+
+.cont-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+.text-align {
+    text-align: justify;
+}

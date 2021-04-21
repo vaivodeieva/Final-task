@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="chat">
+  <header>
+    <span>
+      <img src="../images/cat-logo.png" alt="colorful cat logo">
+    </span>
+    <span class="right">
+      <button class="header-btn"> <a href="./home.html" class="home">Home</a></button>
+      <button class="header-btn"><a href="./articles.html" class="articles">Articles</a></button>
+      <button class="header-btn"><a href="./chat.html" class="chat">Chat</a></button>
+      <button class="header-btn"><a href="./register.html" class="register">Register</a></button>
+      <button class="header-btn"><a href="./about-us.html" class="about-us">About Us</a></button>
+    </span>
+  </header>
+  <hr>
+  <div class="container-chat">
+    <div class="mb-4">
+      <span> <a href="./home.html">Home &gt;</a> Chat</span>
+    </div>
+    <div class="mb-4">
+      <h3>Chat</h3>
+    </div>
+    <div class="inner-container-chat">
+      <div class="container-for-chatbox">
+        <div id="tasks-list">
+          <p class="remove-dot">
+            <span style="font-weight: 600; font-size: 18px;" onclick="toggleCompleteState(this)">
+              Jonathan
+            </span>
+            <span style="font-size: 12px;">
+              Tue Apr 20 2021 10:29:03 GMT+0300 (Eastern European Summer Time)
+            </span>
+          </p>
+          <p class="remove-dot" style="border-bottom: grey solid 1px">
+            <span style="font-family: 'Courier New', Courier, monospace;" onclick="toggleCompleteState(this)">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, vero deserunt reiciendis aperiam ea
+              exercitationem reprehenderit eius possimus expedita facere. Obcaecati, id maxime! Ab reiciendis vitae nam
+              tenetur, quod omnis!
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container-username-message-send">
+      <form onsubmit="submitForm(event)">
+        <div>
+          <span id="datetime" hidden></span>
+          <div> <label for="username">Username:</label> </div>
+          <input type="text" id="username">
+        </div>
+        <div>
+          <div><label for="new-task-name">Message:</label> </div>
+          <textarea name="new-task-name" id="new-task-name" cols="26" rows="1">
+          </textarea>
+        </div>
+        <div>
+          <button>Send</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <hr>
+  <footer class="container-footer">
+    <p>
+      © All Rights Reseved By Cats
+    </p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>
